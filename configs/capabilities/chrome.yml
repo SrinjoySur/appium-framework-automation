@@ -1,0 +1,10 @@
+# Chrome capabilities example for Appium
+appium:deviceName: "Pixel 9a"
+platformName: "Android"
+appium:platformVersion: "16.0"
+appium:udid: "emulator-5554"
+browserName: "Chrome"
+appium:automationName: "UiAutomator2"
+appium:chromedriverExecutable: "C:/Users/ManishKapoor/Documents/appium-framework/chromedriver-win64/chromedriver.exe"
+appium:noReset: true
+appium:adbExecTimeout: 60000

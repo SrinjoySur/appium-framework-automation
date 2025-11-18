@@ -1,0 +1,7 @@
+# Safari capabilities example for Appium
+platformName: iOS
+deviceName: iPhone Simulator
+browserName: Safari
+automationName: XCUITest
+platformVersion: '15.0'
+

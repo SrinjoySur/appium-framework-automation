@@ -1,0 +1,6 @@
+# Firefox capabilities example for Appium
+platformName: Android
+deviceName: emulator-5554
+browserName: Firefox
+automationName: UiAutomator2
+

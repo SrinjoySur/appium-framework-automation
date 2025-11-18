@@ -1,0 +1,5 @@
+/.venv/
+/chromedriver-win64/
+/allure-results/
+/screenshots/failed_tests/
+/--clean/

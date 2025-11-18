@@ -1,0 +1,21 @@
+# Sample configuration for Appium framework
+appium:
+  server_url: "http://localhost:4723/wd/hub"
+  default_capabilities_file: "chrome.yml"
+
+logging:
+  level: "INFO"
+  log_file: "logs/app_logs/appium.log"
+
+allure:
+  results_directory: "allure-results"
+  report_directory: "allure-report"
+  enable_screenshots: true
+
+screenshot:
+  directory: "screenshots"
+  filename_format: "screenshot_{timestamp}.png"
+  path: "screenshots/"
+
+url:
+  base_url: "https://www.makemytrip.com/"

@@ -1,0 +1,75 @@
+2025-08-25 18:10:56,177 INFO HomePage: Attempting to tap Hotels tab.
+2025-08-25 18:10:58,211 INFO HomePage: Tapped Hotels tab successfully.
+2025-08-25 18:10:58,211 INFO HomePage: Attempting to click search field.
+2025-08-25 18:10:58,668 INFO HomePage: Clicked search field successfully.
+2025-08-25 18:10:58,668 INFO HomePage: Attempting to enter search text: Bangalore
+2025-08-25 18:11:00,184 INFO HomePage: Entered search text: Bangalore
+2025-08-25 18:11:00,184 INFO HomePage: Attempting to select first suggestion.
+2025-08-25 18:11:00,596 ERROR HomePage: Exception in select_first_suggestion: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=139.0.7258.143); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6ada178d5+2802741]
+	GetHandleVerifier [0x0x7ff6ad77eb70+79568]
+	(No symbol) [0x0x7ff6ad51c0fa]
+	(No symbol) [0x0x7ff6ad523abd]
+	(No symbol) [0x0x7ff6ad526b1c]
+	(No symbol) [0x0x7ff6ad526bef]
+	(No symbol) [0x0x7ff6ad575027]
+	(No symbol) [0x0x7ff6ad574131]
+	(No symbol) [0x0x7ff6ad565f5b]
+	(No symbol) [0x0x7ff6ad59ac8a]
+	(No symbol) [0x0x7ff6ad565466]
+	(No symbol) [0x0x7ff6ad59aea0]
+	(No symbol) [0x0x7ff6ad5c2e24]
+	(No symbol) [0x0x7ff6ad59aa63]
+	(No symbol) [0x0x7ff6ad563c91]
+	(No symbol) [0x0x7ff6ad564a23]
+	GetHandleVerifier [0x0x7ff6ada42ced+2979917]
+	GetHandleVerifier [0x0x7ff6ada3d0f3+2956371]
+	GetHandleVerifier [0x0x7ff6ada5acbd+3078173]
+	GetHandleVerifier [0x0x7ff6ad79836e+184014]
+	GetHandleVerifier [0x0x7ff6ad7a024f+216495]
+	GetHandleVerifier [0x0x7ff6ad7870c4+113700]
+	GetHandleVerifier [0x0x7ff6ad787279+114137]
+	GetHandleVerifier [0x0x7ff6ad76df78+10968]
+	(No symbol) [0x0x7ffccc3be8d7]
+	RtlUserThreadStart [0x0x7ffcccdbc34c+44]
+
+2025-08-25 18:11:00,991 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20250825_181100.png
+2025-08-25 18:21:54,908 INFO HomePage: Attempting to tap Hotels tab.
+2025-08-25 18:21:58,522 INFO HomePage: Tapped Hotels tab successfully.
+2025-08-25 18:21:58,522 INFO HomePage: Attempting to click search field.
+2025-08-25 18:22:00,269 INFO HomePage: Clicked search field successfully.
+2025-08-25 18:22:00,269 INFO HomePage: Attempting to enter search text: Bangalore
+2025-08-25 18:22:01,875 INFO HomePage: Entered search text: Bangalore
+2025-08-25 18:22:01,876 INFO HomePage: Attempting to select first suggestion.
+2025-08-25 18:22:04,117 INFO HomePage: Selected first suggestion successfully.
+2025-08-25 18:22:04,117 INFO HomePage: Attempting to select tomorrow's date.
+2025-08-25 18:22:04,640 INFO HomePage: Selected tomorrow's date successfully.
+2025-08-25 18:22:04,640 INFO HomePage: Attempting to tap search button.
+2025-08-25 18:22:05,275 INFO HomePage: Tapped search button successfully.
+2025-08-25 18:22:05,275 INFO SearchPage: Attempting to close popup if present.
+2025-08-25 18:22:12,070 INFO SearchPage: Closed popup successfully.
+2025-08-25 18:22:12,070 INFO SearchPage: Attempting to get search results for: Bangalore
+2025-08-25 18:22:32,179 ERROR SearchPage: No search results found for: Bangalore.
+2025-08-25 18:22:32,614 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20250825_182232.png
+2025-08-25 18:40:42,466 INFO HomePage: Attempting to tap Hotels tab.
+2025-08-25 18:40:44,446 INFO HomePage: Tapped Hotels tab successfully.
+2025-08-25 18:40:44,446 INFO HomePage: Attempting to click search field.
+2025-08-25 18:40:45,668 INFO HomePage: Clicked search field successfully.
+2025-08-25 18:40:45,669 INFO HomePage: Attempting to enter search text: Bangalore
+2025-08-25 18:40:47,078 INFO HomePage: Entered search text: Bangalore
+2025-08-25 18:40:47,078 INFO HomePage: Attempting to select first suggestion.
+2025-08-25 18:41:07,342 ERROR HomePage: First suggestion not found.
+2025-08-25 18:41:07,343 ERROR HomePage: Exception in select_first_suggestion: First suggestion not found.
+2025-08-25 18:41:07,694 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20250825_184107.png
+2025-08-25 18:54:33,550 INFO HomePage: Attempting to tap Hotels tab.
+2025-08-25 18:54:35,838 INFO HomePage: Tapped Hotels tab successfully.
+2025-08-25 18:54:35,839 INFO HomePage: Attempting to click search field.
+2025-08-25 18:54:36,429 INFO HomePage: Clicked search field successfully.
+2025-08-25 18:54:36,430 INFO HomePage: Attempting to enter search text: Bangalore
+2025-08-25 18:54:37,985 INFO HomePage: Entered search text: Bangalore
+2025-08-25 18:54:37,985 INFO HomePage: Attempting to select first suggestion.
+2025-08-25 18:54:58,055 ERROR HomePage: First suggestion not found.
+2025-08-25 18:54:58,056 ERROR HomePage: Exception in select_first_suggestion: First suggestion not found.
+2025-08-25 18:54:58,296 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20250825_185458.png
