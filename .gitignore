@@ -4,3 +4,5 @@
 /screenshots/failed_tests/
 /--clean/
 */__pycache__
+.vscode
+.idea
