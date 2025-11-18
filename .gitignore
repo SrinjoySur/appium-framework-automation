@@ -3,3 +3,4 @@
 /allure-results/
 /screenshots/failed_tests/
 /--clean/
+*/__pycache__
