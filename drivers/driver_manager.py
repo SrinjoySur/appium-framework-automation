@@ -2,10 +2,13 @@
 DriverManager class for managing the lifecycle of Appium driver instances.
 Minimal, scalable, and ready for future extension.
 """
-from appium import webdriver
-from typing import Optional, Dict, Any
-import yaml
 import os
+import yaml
+from typing import Dict, Any, Optional
+from appium.webdriver.webdriver import webdriver
+from appium.options.android.uiautomator2.base import UiAutomator2Options
+from appium.options.ios.xcuitest.base import XCUITestOptions
+from appium.options.common.base import AppiumOptions
 
 class DriverManager:
     """
@@ -41,6 +44,29 @@ class DriverManager:
             raise yaml.YAMLError(f"Invalid YAML structure in {yaml_path}")
         return capabilities
 
+    def _create_options_from_capabilities(self, capabilities: Dict[str, Any]) -> AppiumOptions:
+        """
+        Convert capabilities dictionary to appropriate Options object.
+        Args:
+            capabilities (dict): Capabilities dictionary from YAML.
+        Returns:
+            BaseOptions: Platform-specific options object.
+        """
+        platform_name = capabilities.get('platformName', '').lower()
+        
+        if platform_name == 'android':
+            options = UiAutomator2Options()
+        elif platform_name == 'ios':
+            options = XCUITestOptions()
+        else:
+            # For other platforms, use UiAutomator2Options as default
+            # You can extend this for other platforms like Windows, etc.
+            options = UiAutomator2Options()
+        
+        # Load all capabilities into the options object
+        options.load_capabilities(capabilities)
+        return options
+
     def create_driver(self, capabilities: Dict[str, Any]) -> webdriver.Remote:
         """
         Instantiate a new Appium driver with the given capabilities dictionary.
@@ -48,12 +74,16 @@ class DriverManager:
         Args:
             capabilities (dict): Desired capabilities for the driver.
         Returns:
-            webdriver.Remote: The Appium driver instance.
+            WebDriver: The Appium driver instance.
         """
         self.quit_driver()
+        
+        # Convert capabilities dict to Options object
+        options = self._create_options_from_capabilities(capabilities)
+        
         self._driver = webdriver.Remote(
             command_executor=self._server_url,
-            capabilities=capabilities
+            options=options
         )
         return self._driver
 
@@ -61,7 +91,7 @@ class DriverManager:
         """
         Return the current Appium driver instance, if any.
         Returns:
-            webdriver.Remote or None: The Appium driver instance or None if not created.
+            WebDriver or None: The Appium driver instance or None if not created.
         """
         return self._driver
 
