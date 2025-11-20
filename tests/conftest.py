@@ -30,9 +30,9 @@ def pytest_runtest_makereport(item, call):
         if driver:
             from utils.config_reader import ConfigReader
             config = ConfigReader()
-            base_directory = config.get('screenshot', 'directory', default='screenshots')
+            base_directory = config.get('screenshot', 'directory', default='screenshots') or 'screenshots'
             failed_directory = os.path.join(base_directory, 'failed_tests')
-            filename_format = config.get('screenshot', 'filename_format', default='screenshot_{timestamp}.png')
+            filename_format = config.get('screenshot', 'filename_format', default='screenshot_{timestamp}.png') or 'screenshot_{timestamp}.png'
             from datetime import datetime
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             filename = filename_format.format(timestamp=timestamp)
@@ -51,7 +51,11 @@ def pytest_runtest_makereport(item, call):
 def driver(request):
     config = ConfigReader()
     server_url = config.get('appium', 'server_url')
+    if not server_url:
+        raise ValueError("Appium server URL is not configured")
     capabilities_file = getattr(request, 'param', None) or config.get('appium', 'default_capabilities_file')
+    if not capabilities_file:
+        raise ValueError("Capabilities file is not configured")
     manager = DriverManager(server_url)
     capabilities = manager.load_capabilities_from_yaml(capabilities_file)
     drv = manager.create_driver(capabilities)

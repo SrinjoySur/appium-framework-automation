@@ -19,9 +19,9 @@ class ScreenshotUtil:
         """
         try:
             config = ConfigReader()
-            base_directory = config.get('screenshot', 'directory', default='screenshots')
+            base_directory = config.get('screenshot', 'directory', default='screenshots') or 'screenshots'
             failed_directory = os.path.join(base_directory, 'failed_tests')
-            filename_format = config.get('screenshot', 'filename_format', default='screenshot_{timestamp}.png')
+            filename_format = config.get('screenshot', 'filename_format', default='screenshot_{timestamp}.png') or 'screenshot_{timestamp}.png'
             # Ensure failed_tests directory exists
             os.makedirs(failed_directory, exist_ok=True)
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
