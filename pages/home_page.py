@@ -27,8 +27,7 @@ class HomePage(BasePage):
         """
         self.logger.info("Attempting to tap Hotels tab.")
         try:
-            hotels_button = WaitUtil.wait_for_element(self.driver, 'xpath', "//a[@data-cy='menu_item_clicked_1']",
-                                                      self.timeout)
+            hotels_button = WaitUtil.wait_for_element(self.driver, 'xpath', "//a[@data-cy='menu_item_clicked_1']",self.timeout)
             if hotels_button:
                 hotels_button.click()
                 self.logger.info("Tapped Hotels tab successfully.")
