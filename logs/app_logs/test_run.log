@@ -774,3 +774,195 @@ Stacktrace:
 2025-11-21 12:37:59,984 ERROR TestSearchResult: Test failed with exception: Search button not found with any strategy
 2025-11-21 12:38:00,294 INFO TestSearchResult: Screenshot saved: screenshots/failed_tests/test_failure_1763708879.png
 2025-11-21 12:38:00,642 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20251121_123800.png
+2025-11-21 12:40:01,209 INFO TestSearchResult: Starting hotel search test for Bangalore
+2025-11-21 12:40:05,929 INFO TestSearchResult: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:40:17,158 INFO HomePage: Page loaded successfully
+2025-11-21 12:40:17,158 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:40:17,296 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:40:17,936 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:40:20,937 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:40:20,967 INFO HomePage: Page loaded successfully
+2025-11-21 12:40:20,967 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:40:24,235 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:40:26,235 INFO HomePage: Attempting to click location/city search area.
+2025-11-21 12:40:26,236 INFO HomePage: Trying location selector 1: //button[text()='Near me']
+2025-11-21 12:40:27,796 INFO HomePage: Clicked location selector successfully with locator 1.
+2025-11-21 12:40:31,797 INFO HomePage: Attempting to enter search text: Bangalore
+2025-11-21 12:40:31,797 INFO HomePage: Trying input locator 1: //input[@id='react-autowhatever-1-section-0-item-0']
+2025-11-21 12:40:47,286 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@id='react-autowhatever-1-section-0-item-0']'
+2025-11-21 12:40:57,415 WARNING WaitUtil: Presence wait timeout for xpath='//input[@id='react-autowhatever-1-section-0-item-0']'
+2025-11-21 12:41:13,116 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@id='react-autowhatever-1-section-0-item-0']'
+2025-11-21 12:41:13,116 INFO HomePage: Trying input locator 2: //input[contains(@placeholder, 'Enter city')]
+2025-11-21 12:41:28,503 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@placeholder, 'Enter city')]'
+2025-11-21 12:41:38,598 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@placeholder, 'Enter city')]'
+2025-11-21 12:41:54,287 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@placeholder, 'Enter city')]'
+2025-11-21 12:41:54,288 INFO HomePage: Trying input locator 3: //input[contains(@placeholder, 'City')]
+2025-11-21 12:42:09,674 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@placeholder, 'City')]'
+2025-11-21 12:42:19,845 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@placeholder, 'City')]'
+2025-11-21 12:42:35,582 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@placeholder, 'City')]'
+2025-11-21 12:42:35,583 INFO HomePage: Trying input locator 4: //input[contains(@placeholder, 'Where')]
+2025-11-21 12:42:51,028 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@placeholder, 'Where')]'
+2025-11-21 12:43:01,139 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@placeholder, 'Where')]'
+2025-11-21 12:43:16,824 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@placeholder, 'Where')]'
+2025-11-21 12:43:16,824 INFO HomePage: Trying input locator 5: //input[@type='text' and @class]
+2025-11-21 12:43:32,216 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@type='text' and @class]'
+2025-11-21 12:43:42,315 WARNING WaitUtil: Presence wait timeout for xpath='//input[@type='text' and @class]'
+2025-11-21 12:43:58,008 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@type='text' and @class]'
+2025-11-21 12:43:58,008 INFO HomePage: Trying input locator 6: //div[contains(@class, 'search')]//input
+2025-11-21 12:44:13,401 WARNING WaitUtil: Visibility wait timeout for xpath='//div[contains(@class, 'search')]//input'
+2025-11-21 12:44:23,520 WARNING WaitUtil: Presence wait timeout for xpath='//div[contains(@class, 'search')]//input'
+2025-11-21 12:44:39,192 ERROR WaitUtil: Element not found after all strategies: xpath='//div[contains(@class, 'search')]//input'
+2025-11-21 12:44:39,193 INFO HomePage: Trying input locator 7: //input[contains(@id, 'city')]
+2025-11-21 12:44:54,617 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@id, 'city')]'
+2025-11-21 12:45:04,721 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@id, 'city')]'
+2025-11-21 12:45:20,402 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@id, 'city')]'
+2025-11-21 12:45:20,403 INFO HomePage: Trying input locator 8: //input[contains(@name, 'city')]
+2025-11-21 12:45:35,831 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@name, 'city')]'
+2025-11-21 12:45:45,930 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@name, 'city')]'
+2025-11-21 12:46:01,624 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@name, 'city')]'
+2025-11-21 12:46:01,624 INFO HomePage: Trying to find any active/focused input field
+2025-11-21 12:46:01,680 ERROR TestSearchResult: Test failed with exception: Search input field not found with any strategy
+2025-11-21 12:46:01,933 INFO TestSearchResult: Screenshot saved: screenshots/failed_tests/test_failure_1763709361.png
+2025-11-21 12:46:02,395 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20251121_124602.png
+2025-11-21 12:47:14,411 INFO QuickDebug: === Quick Debug After Near Me Click ===
+2025-11-21 12:47:27,464 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:47:27,682 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:47:28,964 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:47:31,965 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:47:32,004 INFO HomePage: Page loaded successfully
+2025-11-21 12:47:32,004 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:47:35,504 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:47:38,777 INFO DebugUtil: Debug screenshot saved: screenshots/before_near_me.png
+2025-11-21 12:47:39,204 INFO QuickDebug: Clicked Near Me button
+2025-11-21 12:47:44,421 INFO DebugUtil: Debug screenshot saved: screenshots/after_near_me.png
+2025-11-21 12:47:44,421 INFO QuickDebug: === Examining page after Near Me click ===
+2025-11-21 12:47:44,451 INFO QuickDebug: Found 0 input elements:
+2025-11-21 12:47:44,483 INFO QuickDebug: Found 9 elements containing 'city':
+2025-11-21 12:47:44,551 INFO QuickDebug:   city element 1: style - 'No text'
+2025-11-21 12:47:44,610 INFO QuickDebug:   city element 2: style - 'No text'
+2025-11-21 12:47:44,668 INFO QuickDebug:   city element 3: style - 'No text'
+2025-11-21 12:47:44,701 INFO QuickDebug: Found 3 elements containing 'location':
+2025-11-21 12:47:44,762 INFO QuickDebug:   location element 1: style - 'No text'
+2025-11-21 12:47:44,822 INFO QuickDebug:   location element 2: style - 'No text'
+2025-11-21 12:47:44,879 INFO QuickDebug:   location element 3: script - 'No text'
+2025-11-21 12:47:44,906 INFO QuickDebug: Found 2 elements containing 'destination':
+2025-11-21 12:47:44,961 INFO QuickDebug:   destination element 1: style - 'No text'
+2025-11-21 12:47:45,019 INFO QuickDebug:   destination element 2: script - 'No text'
+2025-11-21 12:47:45,053 INFO QuickDebug: Found 2 elements containing 'where':
+2025-11-21 12:47:45,113 INFO QuickDebug:   where element 1: style - 'No text'
+2025-11-21 12:47:45,170 INFO QuickDebug:   where element 2: script - 'No text'
+2025-11-21 12:47:45,194 INFO QuickDebug: Current URL: https://www.makemytrip.com/hotels/
+2025-11-21 12:47:45,218 INFO QuickDebug: Current Title: MakeMyTrip.com: Save upto 60% on Hotel Booking 4,442,00+ Hotels Worldwide
+2025-11-21 12:47:47,641 INFO DebugUtil: Found 12 clickable elements:
+2025-11-21 12:47:47,641 INFO DebugUtil:   1. button - Text: 'OPEN IN APP' - Class: 'downloadAppBnr__cta appendLeft8' - ID: 'No id'
+2025-11-21 12:47:47,642 INFO DebugUtil:   2. button - Text: 'Near me' - Class: 'mdWidgetFld__nearMeBtn tapEffect' - ID: 'No id'
+2025-11-21 12:47:47,642 INFO DebugUtil:   3. button - Text: 'Today' - Class: 'nearbyDay active' - ID: 'No id'
+2025-11-21 12:47:47,642 INFO DebugUtil:   4. button - Text: 'Tomorrow' - Class: 'nearbyDay ' - ID: 'No id'
+2025-11-21 12:47:47,642 INFO DebugUtil:   5. button - Text: 'SEARCH' - Class: 'font16 lato-black button appendTop10 latoBlack rip' - ID: 'No id'
+2025-11-21 12:47:47,643 INFO DebugUtil:   6. button - Text: 'View All' - Class: 'violetText hoverEffect noButton latoBlack font13' - ID: 'No id'
+2025-11-21 12:47:47,643 INFO DebugUtil:   7. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:47:47,643 INFO DebugUtil:   8. a - Text: 'No text' - Class: 'sp__srchFrmSprt sp__srchFrmSprt--bckArw' - ID: 'No id'
+2025-11-21 12:47:47,643 INFO DebugUtil:   9. a - Text: 'Discover by Brands
+Taj, Marriott, Oberoi, Hyatt & ' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:47:47,643 INFO DebugUtil:   10. a - Text: 'Luxe Villas
+Premium Villas with Superlative Experi' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:47:47,688 INFO QuickDebug: ✅ Successfully on hotels page - may not need text input
+2025-11-21 12:47:47,689 INFO QuickDebug: This might be a 'nearby hotels' search that doesn't require city input
+2025-11-21 12:51:27,452 INFO BangaloreHotelTest: === Starting Bangalore Hotel Search Test ===
+2025-11-21 12:51:32,225 INFO BangaloreHotelTest: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:51:42,557 INFO HomePage: Page loaded successfully
+2025-11-21 12:51:43,125 INFO DebugUtil: Debug screenshot saved: screenshots/step1_homepage.png
+2025-11-21 12:51:43,125 INFO BangaloreHotelTest: Closing any login popups...
+2025-11-21 12:51:43,126 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:51:43,666 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:51:44,690 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:51:47,979 INFO DebugUtil: Debug screenshot saved: screenshots/step2_popup_closed.png
+2025-11-21 12:51:47,979 INFO BangaloreHotelTest: Clicking Hotels tab...
+2025-11-21 12:51:47,980 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:51:48,009 INFO HomePage: Page loaded successfully
+2025-11-21 12:51:48,009 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:51:52,291 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:51:55,578 INFO DebugUtil: Debug screenshot saved: screenshots/step3_hotels_tab.png
+2025-11-21 12:51:55,579 INFO BangaloreHotelTest: Attempting to search for Bangalore...
+2025-11-21 12:51:55,579 INFO HomePage: Attempting to find city search input area.
+2025-11-21 12:51:55,579 INFO HomePage: Trying city search locator 1: //span[contains(text(), 'City') or contains(text(), 'Where') or contains(text(), 'Destination')]
+2025-11-21 12:52:03,744 INFO HomePage: Trying city search locator 2: //div[contains(@class, 'location') and not(contains(@class, 'near'))]
+2025-11-21 12:52:11,816 INFO HomePage: Trying city search locator 3: //input[@type='text']
+2025-11-21 12:52:19,844 INFO HomePage: Trying city search locator 4: //div[contains(@class, 'search')]
+2025-11-21 12:52:21,288 INFO HomePage: Clicked city search area with locator 4.
+2025-11-21 12:52:26,520 INFO DebugUtil: Debug screenshot saved: screenshots/step4a_search_field_clicked.png
+2025-11-21 12:52:26,521 INFO HomePage: Attempting to enter search text: Bangalore
+2025-11-21 12:52:26,521 INFO HomePage: Trying input locator 1: //input[@type='text' and contains(@placeholder, 'city')]
+2025-11-21 12:52:35,043 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'city')]'
+2025-11-21 12:52:45,558 WARNING WaitUtil: Presence wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'city')]'
+2025-11-21 12:52:53,588 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@type='text' and contains(@placeholder, 'city')]'
+2025-11-21 12:52:53,589 INFO HomePage: Trying input locator 2: //input[@type='text' and contains(@placeholder, 'City')]
+2025-11-21 12:53:01,856 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'City')]'
+2025-11-21 12:53:12,354 WARNING WaitUtil: Presence wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'City')]'
+2025-11-21 12:53:20,396 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@type='text' and contains(@placeholder, 'City')]'
+2025-11-21 12:53:20,397 INFO HomePage: Trying input locator 3: //input[@type='text' and contains(@placeholder, 'where')]
+2025-11-21 12:53:28,756 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'where')]'
+2025-11-21 12:53:39,295 WARNING WaitUtil: Presence wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'where')]'
+2025-11-21 12:53:47,336 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@type='text' and contains(@placeholder, 'where')]'
+2025-11-21 12:53:47,337 INFO HomePage: Trying input locator 4: //input[@type='text' and contains(@placeholder, 'Where')]
+2025-11-21 12:53:55,675 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'Where')]'
+2025-11-21 12:54:06,092 WARNING WaitUtil: Presence wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'Where')]'
+2025-11-21 12:54:14,627 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@type='text' and contains(@placeholder, 'Where')]'
+2025-11-21 12:54:14,628 INFO HomePage: Trying input locator 5: //input[@type='text' and contains(@placeholder, 'destination')]
+2025-11-21 12:54:22,861 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'destination')]'
+2025-11-21 12:54:33,215 WARNING WaitUtil: Presence wait timeout for xpath='//input[@type='text' and contains(@placeholder, 'destination')]'
+2025-11-21 12:54:41,323 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@type='text' and contains(@placeholder, 'destination')]'
+2025-11-21 12:54:41,324 INFO HomePage: Trying input locator 6: //input[@type='text']
+2025-11-21 12:54:49,640 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@type='text']'
+2025-11-21 12:55:00,144 WARNING WaitUtil: Presence wait timeout for xpath='//input[@type='text']'
+2025-11-21 12:55:08,223 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@type='text']'
+2025-11-21 12:55:08,224 INFO HomePage: Trying input locator 7: //input[contains(@id, 'city')]
+2025-11-21 12:55:16,494 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@id, 'city')]'
+2025-11-21 12:55:26,929 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@id, 'city')]'
+2025-11-21 12:55:34,980 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@id, 'city')]'
+2025-11-21 12:55:34,980 INFO HomePage: Trying input locator 8: //input[contains(@name, 'city')]
+2025-11-21 12:55:43,209 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@name, 'city')]'
+2025-11-21 12:55:53,647 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@name, 'city')]'
+2025-11-21 12:56:01,774 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@name, 'city')]'
+2025-11-21 12:56:01,774 INFO HomePage: Trying input locator 9: //textarea[contains(@placeholder, 'city')]
+2025-11-21 12:56:09,958 WARNING WaitUtil: Visibility wait timeout for xpath='//textarea[contains(@placeholder, 'city')]'
+2025-11-21 12:56:20,423 WARNING WaitUtil: Presence wait timeout for xpath='//textarea[contains(@placeholder, 'city')]'
+2025-11-21 12:56:28,428 ERROR WaitUtil: Element not found after all strategies: xpath='//textarea[contains(@placeholder, 'city')]'
+2025-11-21 12:56:28,542 INFO HomePage: ℹ️  Already on hotels page: https://www.makemytrip.com/hotels/
+2025-11-21 12:56:28,543 INFO HomePage: Text input for 'Bangalore' may not be required - proceeding with search
+2025-11-21 12:56:30,750 INFO DebugUtil: Debug screenshot saved: screenshots/step4b_text_entered.png
+2025-11-21 12:56:30,750 INFO HomePage: Looking for suggestions to select.
+2025-11-21 12:56:32,751 INFO HomePage: Trying suggestion locator 1: //ul[contains(@class, 'suggestions')]//li[1]
+2025-11-21 12:56:37,771 INFO HomePage: Trying suggestion locator 2: //div[contains(@class, 'suggestion')]//li[1]
+2025-11-21 12:56:42,835 INFO HomePage: Trying suggestion locator 3: //ul[@id='ui-id-1']/li[1]
+2025-11-21 12:56:47,842 INFO HomePage: Trying suggestion locator 4: //div[contains(@class, 'autoComplete')]//li[1]
+2025-11-21 12:56:52,908 INFO HomePage: Trying suggestion locator 5: //div[@class='react-autosuggest__suggestions-container']//li[1]
+2025-11-21 12:56:57,938 INFO HomePage: Trying suggestion locator 6: .react-autosuggest__suggestion:first-child
+2025-11-21 12:57:02,957 INFO HomePage: Trying suggestion locator 7: [data-cy='suggestion-0']
+2025-11-21 12:57:08,007 INFO HomePage: Trying suggestion locator 8: //li[contains(@class, 'suggestion')][1]
+2025-11-21 12:57:13,142 INFO HomePage: ℹ️  No suggestions found - continuing without selection
+2025-11-21 12:57:13,142 INFO HomePage: This might be a search flow that doesn't require suggestion selection
+2025-11-21 12:57:15,371 INFO DebugUtil: Debug screenshot saved: screenshots/step4c_suggestion_selected.png
+2025-11-21 12:57:15,372 INFO BangaloreHotelTest: Successfully entered Bangalore search
+2025-11-21 12:57:15,372 INFO BangaloreHotelTest: Handling date selection...
+2025-11-21 12:57:15,372 INFO HomePage: Attempting to select tomorrow's date.
+2025-11-21 12:57:15,372 INFO HomePage: Trying date locator 1: //td[contains(@class, 'DayPicker-Day') and not(contains(@class, 'disabled'))][2]
+2025-11-21 12:57:30,523 INFO HomePage: Trying date locator 2: //div[contains(@class, 'date-picker')]//td[not(contains(@class, 'disabled'))][2]
+2025-11-21 12:57:45,649 INFO HomePage: Trying date locator 3: //button[contains(@class, 'day') and not(contains(@class, 'disabled'))][2]
+2025-11-21 12:58:01,193 INFO HomePage: Trying date locator 4: .DayPicker-Day:not(.DayPicker-Day--disabled):nth-child(2)
+2025-11-21 12:58:02,318 INFO HomePage: Selected tomorrow's date successfully.
+2025-11-21 12:58:04,319 INFO BangaloreHotelTest: Date selected
+2025-11-21 12:58:04,565 INFO DebugUtil: Debug screenshot saved: screenshots/step5_date_handled.png
+2025-11-21 12:58:04,566 INFO BangaloreHotelTest: Executing hotel search...
+2025-11-21 12:58:04,566 INFO HomePage: Attempting to tap search button.
+2025-11-21 12:58:04,566 INFO HomePage: Trying search button locator 1: //button[text()='SEARCH']
+2025-11-21 12:58:20,098 INFO HomePage: Trying search button locator 2: //button[contains(@class, 'button') and contains(text(), 'SEARCH')]
+2025-11-21 12:58:35,511 INFO HomePage: Trying search button locator 3: //button[contains(@class, 'rip') and text()='SEARCH']
+2025-11-21 12:58:50,547 INFO HomePage: Trying search button locator 4: //button[contains(@class, 'lato') and contains(text(), 'SEARCH')]
+2025-11-21 12:59:05,617 INFO HomePage: Trying search button locator 5: //input[@type='submit']
+2025-11-21 12:59:20,635 INFO HomePage: Trying search button locator 6: //button[contains(text(), 'Search')]
+2025-11-21 12:59:35,668 INFO HomePage: Trying search button locator 7: //a[contains(text(), 'SEARCH')]
+2025-11-21 12:59:51,032 ERROR BangaloreHotelTest: Test failed: Search button not found with any strategy
+2025-11-21 12:59:51,248 INFO DebugUtil: Debug screenshot saved: screenshots/test_failure.png
+2025-11-21 12:59:51,249 INFO BangaloreHotelTest: === Bangalore Hotel Search Test Completed ===
+2025-11-21 12:59:51,911 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20251121_125951.png
