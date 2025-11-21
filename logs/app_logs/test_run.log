@@ -83,3 +83,7 @@ Stacktrace:
 2025-11-21 10:12:40,144 ERROR HomePage: Hotels tab not found on Home Page.
 2025-11-21 10:12:40,144 ERROR HomePage: Exception in tap_hotels_tab: Hotels tab not found on Home Page.
 2025-11-21 10:12:51,477 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20251121_101240.png
+2025-11-21 11:02:01,137 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 11:02:21,438 ERROR HomePage: Hotels tab not found on Home Page.
+2025-11-21 11:02:21,439 ERROR HomePage: Exception in tap_hotels_tab: Hotels tab not found on Home Page.
+2025-11-21 11:02:32,933 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20251121_110221.png
