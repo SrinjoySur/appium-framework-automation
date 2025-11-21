@@ -6,5 +6,7 @@ appium:udid: "emulator-5554"
 browserName: "Chrome"
 appium:automationName: "UiAutomator2"
 #appium:chromedriverExecutable: "C:/Users/SrinjoySur/Documents/appium-framework/chromedriver-win64/chromedriver.exe"
+appium:autoDownloadEnabled: true
+appium:chromedriverAutoDownload: true
 appium:noReset: true
 appium:adbExecTimeout: 60000

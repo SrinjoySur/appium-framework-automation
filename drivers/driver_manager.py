@@ -5,9 +5,10 @@ Minimal, scalable, and ready for future extension.
 import os
 import yaml
 from typing import Dict, Any, Optional
-from appium.webdriver.webdriver import webdriver
-from appium.options.android.uiautomator2.base import UiAutomator2Options
-from appium.options.ios.xcuitest.base import XCUITestOptions
+from appium.webdriver.webdriver import WebDriver
+from appium import webdriver
+from appium.options.android import UiAutomator2Options
+from appium.options.ios import XCUITestOptions
 from appium.options.common.base import AppiumOptions
 
 class DriverManager:
@@ -22,7 +23,7 @@ class DriverManager:
             server_url (str): The Appium server URL.
         """
         self._server_url = server_url
-        self._driver: Optional[webdriver.Remote] = None
+        self._driver: Optional[WebDriver] = None
 
     def load_capabilities_from_yaml(self, yaml_filename: str) -> Dict[str, Any]:
         """
@@ -67,7 +68,7 @@ class DriverManager:
         options.load_capabilities(capabilities)
         return options
 
-    def create_driver(self, capabilities: Dict[str, Any]) -> webdriver.Remote:
+    def create_driver(self, capabilities: Dict[str, Any]) -> WebDriver:
         """
         Instantiate a new Appium driver with the given capabilities dictionary.
         Quits any existing driver before creating a new one.
@@ -87,7 +88,7 @@ class DriverManager:
         )
         return self._driver
 
-    def get_driver(self) -> Optional[webdriver.Remote]:
+    def get_driver(self) -> Optional[WebDriver]:
         """
         Return the current Appium driver instance, if any.
         Returns:
