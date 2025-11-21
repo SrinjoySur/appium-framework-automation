@@ -15,7 +15,11 @@ import logging
 from appium.webdriver.webdriver import WebDriver
 from appium.webdriver.common.appiumby import AppiumBy
 from appium.webdriver.webelement import WebElement
-from typing import Optional
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
+from typing import Optional, List
 import time
 
 class BasePage:
@@ -32,46 +36,137 @@ class BasePage:
         self.driver = driver
         self.timeout = timeout
         self.logger = logging.getLogger(self.__class__.__name__)
+        self._ensure_web_context()
+    
+    def _ensure_web_context(self):
+        """Ensure we're in the correct web context for browser automation."""
+        try:
+            contexts = self.driver.contexts
+            web_context = None
+            for context in contexts:
+                if 'WEBVIEW' in context or 'CHROMIUM' in context:
+                    web_context = context
+                    break
+            
+            if web_context and self.driver.current_context != web_context:
+                self.driver.switch_to.context(web_context)
+                self.logger.info(f"Switched to web context: {web_context}")
+        except Exception as e:
+            self.logger.warning(f"Context switching failed or not available: {e}")
 
-    def find_element(self, by: str, locator: str, timeout: Optional[int] = None) -> Optional[WebElement]:
+    def find_element(self, by: str, locator: str, timeout: Optional[int] = None, wait_for_clickable: bool = False) -> Optional[WebElement]:
         """
-        Locate an element using the given strategy and locator.
+        Locate an element using enhanced wait strategies for web automation.
         Args:
-            by (str): Locator strategy (e.g., 'id', 'xpath', 'accessibility id').
+            by (str): Locator strategy (e.g., 'id', 'xpath', 'css_selector').
             locator (str): The locator value.
             timeout (int, optional): Timeout for finding the element.
+            wait_for_clickable (bool): Wait for element to be clickable instead of just visible.
         Returns:
             WebElement if found, else None.
         """
-        end_time = time.time() + (timeout or self.timeout)
-        while time.time() < end_time:
+        wait_timeout = timeout or self.timeout
+        
+        try:
+            # Convert Appium By to Selenium By for web context
+            selenium_by = self._convert_to_selenium_by(by)
+            
+            wait = WebDriverWait(self.driver, wait_timeout)
+            
+            if wait_for_clickable:
+                element = wait.until(EC.element_to_be_clickable((selenium_by, locator)))
+            else:
+                element = wait.until(EC.visibility_of_element_located((selenium_by, locator)))
+            
+            self.logger.info(f"Element found using {by}='{locator}'")
+            return element
+            
+        except TimeoutException:
+            # Try alternative wait strategy
             try:
-                element = self.driver.find_element(getattr(AppiumBy, by.upper()), locator)
+                element = WebDriverWait(self.driver, 5).until(
+                    EC.presence_of_element_located((selenium_by, locator))
+                )
                 if element.is_displayed():
                     return element
-            except Exception as e:
-                self.logger.warning(f"Element not found using {by}='{locator}': {e}")
-            time.sleep(0.5)
-        self.logger.error(f"Timeout: Element not found using {by}='{locator}' after {timeout or self.timeout} seconds.")
+            except:
+                pass
+            
+        except Exception as e:
+            self.logger.warning(f"Error finding element {by}='{locator}': {e}")
+        
+        # Last resort: try with page refresh
+        try:
+            self.logger.info("Attempting page refresh and retry...")
+            self.driver.refresh()
+            time.sleep(2)
+            
+            wait = WebDriverWait(self.driver, 10)
+            element = wait.until(EC.visibility_of_element_located((selenium_by, locator)))
+            return element
+        except:
+            pass
+            
+        self.logger.error(f"Element not found using {by}='{locator}' after {wait_timeout} seconds")
         return None
+    
+    def _convert_to_selenium_by(self, by: str) -> str:
+        """Convert Appium By strategy to Selenium By."""
+        by_mapping = {
+            'id': By.ID,
+            'xpath': By.XPATH,
+            'css_selector': By.CSS_SELECTOR,
+            'class_name': By.CLASS_NAME,
+            'tag_name': By.TAG_NAME,
+            'name': By.NAME,
+            'link_text': By.LINK_TEXT,
+            'partial_link_text': By.PARTIAL_LINK_TEXT
+        }
+        return by_mapping.get(by.lower(), By.XPATH)
 
     def tap_element(self, by: str, locator: str, timeout: Optional[int] = None) -> None:
         """
-        Tap on an element after locating it.
+        Tap on an element with enhanced retry logic.
         Args:
             by (str): Locator strategy.
             locator (str): The locator value.
             timeout (int, optional): Timeout for finding the element.
         Raises:
-            Exception: If the element is not found.
+            Exception: If the element is not found or not clickable.
         """
-        element = self.find_element(by, locator, timeout)
-        if element:
-            element.click()
-            self.logger.info(f"Tapped element using {by}='{locator}'.")
-        else:
-            self.logger.error(f"Element to tap not found using {by}='{locator}'.")
-            raise Exception(f"Element to tap not found using {by}='{locator}'.")
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                # Wait for element to be clickable
+                element = self.find_element(by, locator, timeout, wait_for_clickable=True)
+                if element:
+                    # Scroll element into view if needed
+                    self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+                    time.sleep(0.5)
+                    
+                    # Try clicking
+                    element.click()
+                    self.logger.info(f"Successfully tapped element using {by}='{locator}'")
+                    return
+                else:
+                    raise Exception(f"Element not found: {by}='{locator}'")
+                    
+            except Exception as e:
+                self.logger.warning(f"Tap attempt {attempt + 1} failed for {by}='{locator}': {e}")
+                if attempt == max_retries - 1:
+                    # Try JavaScript click as last resort
+                    try:
+                        element = self.find_element(by, locator, 5)
+                        if element:
+                            self.driver.execute_script("arguments[0].click();", element)
+                            self.logger.info(f"JavaScript click succeeded for {by}='{locator}'")
+                            return
+                    except:
+                        pass
+                    
+                    self.logger.error(f"All tap attempts failed for {by}='{locator}'")
+                    raise Exception(f"Element to tap not found or not clickable: {by}='{locator}'")
+                time.sleep(1)
 
     def send_text(self, by: str, locator: str, text: str, timeout: Optional[int] = None) -> None:
         """
@@ -157,6 +252,46 @@ class BasePage:
         self.logger.error(f"Element not found after {max_scrolls} scrolls: {by}={locator}")
         return None
 
+    def wait_for_page_load(self, timeout: int = 30) -> None:
+        """Wait for page to fully load."""
+        try:
+            WebDriverWait(self.driver, timeout).until(
+                lambda driver: driver.execute_script("return document.readyState") == "complete"
+            )
+            self.logger.info("Page loaded successfully")
+        except TimeoutException:
+            self.logger.warning("Page load timeout - continuing anyway")
+    
+    def switch_to_frame(self, frame_locator: str, by: str = "xpath") -> bool:
+        """Switch to iframe if present."""
+        try:
+            selenium_by = self._convert_to_selenium_by(by)
+            frame = WebDriverWait(self.driver, 10).until(
+                EC.frame_to_be_available_and_switch_to_it((selenium_by, frame_locator))
+            )
+            self.logger.info(f"Switched to frame: {frame_locator}")
+            return True
+        except:
+            self.logger.info(f"No frame found or switch failed: {frame_locator}")
+            return False
+    
+    def switch_to_default_content(self) -> None:
+        """Switch back to main content from iframe."""
+        try:
+            self.driver.switch_to.default_content()
+            self.logger.info("Switched to default content")
+        except Exception as e:
+            self.logger.warning(f"Failed to switch to default content: {e}")
+    
+    def wait_and_click_with_js(self, by: str, locator: str, timeout: Optional[int] = None) -> None:
+        """Wait for element and click using JavaScript - useful for stubborn elements."""
+        element = self.find_element(by, locator, timeout)
+        if element:
+            self.driver.execute_script("arguments[0].click();", element)
+            self.logger.info(f"JavaScript clicked element: {by}='{locator}'")
+        else:
+            raise Exception(f"Element not found for JS click: {by}='{locator}'")
+    
     def get_driver(self) -> WebDriver:
         """
         Return the Appium driver instance.

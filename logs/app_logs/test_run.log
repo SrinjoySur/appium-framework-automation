@@ -87,3 +87,690 @@ Stacktrace:
 2025-11-21 11:02:21,438 ERROR HomePage: Hotels tab not found on Home Page.
 2025-11-21 11:02:21,439 ERROR HomePage: Exception in tap_hotels_tab: Hotels tab not found on Home Page.
 2025-11-21 11:02:32,933 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20251121_110221.png
+2025-11-21 12:20:06,327 INFO DebugTest: === STARTING DEBUG TEST ===
+2025-11-21 12:20:06,329 INFO DebugTest: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:20:24,598 INFO DebugUtil: Available contexts: ['NATIVE_APP', 'CHROMIUM']
+2025-11-21 12:20:24,599 INFO DebugUtil: Current context: CHROMIUM
+2025-11-21 12:20:25,169 INFO DebugUtil: Debug screenshot saved: screenshots/initial_page.png
+2025-11-21 12:20:25,169 INFO DebugUtil: Waiting 5 seconds for 'page to fully load' to appear...
+2025-11-21 12:20:25,169 INFO DebugUtil: Debug check 1/5
+2025-11-21 12:20:25,488 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:20:25,525 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:20:26,526 INFO DebugUtil: Debug check 2/5
+2025-11-21 12:20:26,585 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:20:26,629 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:20:27,630 INFO DebugUtil: Debug check 3/5
+2025-11-21 12:20:27,707 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:20:27,743 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:20:28,744 INFO DebugUtil: Debug check 4/5
+2025-11-21 12:20:28,827 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:20:28,877 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:20:29,878 INFO DebugUtil: Debug check 5/5
+2025-11-21 12:20:29,954 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:20:29,994 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:20:31,072 INFO DebugUtil: Page source saved to: page_source_debug.html
+2025-11-21 12:20:31,072 INFO DebugTest: 
+=== LOOKING FOR HOTELS ELEMENTS ===
+2025-11-21 12:20:31,113 INFO DebugUtil: Found 14 elements containing text 'Hotel':
+2025-11-21 12:20:31,216 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:20:31,304 INFO DebugUtil:   2. Tag: title, Class: No class, ID: No id
+2025-11-21 12:20:31,403 INFO DebugUtil:   3. Tag: p, Class: No class, ID: No id
+2025-11-21 12:20:31,520 INFO DebugUtil:   4. Tag: span, Class: labelText, ID: No id
+2025-11-21 12:20:31,620 INFO DebugUtil:   5. Tag: p, Class: indexstyle__StoreHeading-sc-wzok45-1 dUEjHf, ID: No id
+2025-11-21 12:20:31,741 INFO DebugUtil:   6. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:20:31,857 INFO DebugUtil:   7. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:20:31,969 INFO DebugUtil:   8. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:20:32,074 INFO DebugUtil:   9. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:20:32,198 INFO DebugUtil:   10. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:20:32,324 INFO DebugUtil:   11. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:20:32,438 INFO DebugUtil:   12. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:20:32,568 INFO DebugUtil:   13. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:20:32,719 INFO DebugUtil:   14. Tag: script, Class: No class, ID: No id
+2025-11-21 12:20:32,719 INFO DebugTest: 
+=== ALL CLICKABLE ELEMENTS ===
+2025-11-21 12:20:46,510 INFO DebugUtil: Found 59 clickable elements:
+2025-11-21 12:20:46,511 INFO DebugUtil:   1. button - Text: 'Get the App' - Class: 'styles__DownloadBtn-sc-1h6kcf5-10 iMtEJv' - ID: 'No id'
+2025-11-21 12:20:46,512 INFO DebugUtil:   2. button - Text: 'DOWNLOAD APP AND EARN' - Class: 'ReferEarnstyles__ActionBtn-sc-ahkq4u-9 lapobb' - ID: 'No id'
+2025-11-21 12:20:46,512 INFO DebugUtil:   3. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:20:46,512 INFO DebugUtil:   4. a - Text: 'Login Now' - Class: 'indexstyles__Login-sc-9lbmyv-0 HpQEl' - ID: 'No id'
+2025-11-21 12:20:46,513 INFO DebugUtil:   5. a - Text: 'Flights' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:20:46,513 INFO DebugUtil:   6. a - Text: 'Hotels' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:20:46,513 INFO DebugUtil:   7. a - Text: 'Trains' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:20:46,513 INFO DebugUtil:   8. a - Text: 'Holiday Packages' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:20:46,514 INFO DebugUtil:   9. a - Text: 'Airport Cabs' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:20:46,514 INFO DebugUtil:   10. a - Text: 'Homestays & Villas' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:20:46,514 INFO DebugTest: 
+=== LOOKING FOR NAVIGATION MENU ===
+2025-11-21 12:20:46,558 WARNING DebugUtil: Element not found: xpath='//nav'
+2025-11-21 12:20:46,608 WARNING DebugUtil: Element not found: xpath='//ul[contains(@class, 'nav')]'
+2025-11-21 12:20:46,655 WARNING DebugUtil: Element not found: xpath='//div[contains(@class, 'menu')]'
+2025-11-21 12:20:46,691 INFO DebugUtil: Element found with xpath='//a[contains(@data-cy, 'menu')]':
+2025-11-21 12:20:46,729 INFO DebugUtil:   Tag: a
+2025-11-21 12:20:46,769 INFO DebugUtil:   Text: Flights
+2025-11-21 12:20:46,813 INFO DebugUtil:   Visible: True
+2025-11-21 12:20:46,859 INFO DebugUtil:   Enabled: True
+2025-11-21 12:20:47,113 INFO DebugUtil:   data-cy: menu_item_clicked_0
+2025-11-21 12:20:47,188 INFO DebugUtil: Element found with css_selector='[data-cy*='menu']':
+2025-11-21 12:20:47,224 INFO DebugUtil:   Tag: a
+2025-11-21 12:20:47,265 INFO DebugUtil:   Text: Flights
+2025-11-21 12:20:47,302 INFO DebugUtil:   Visible: True
+2025-11-21 12:20:47,343 INFO DebugUtil:   Enabled: True
+2025-11-21 12:20:47,613 INFO DebugUtil:   data-cy: menu_item_clicked_0
+2025-11-21 12:20:47,656 INFO DebugTest: 
+=== LOOKING FOR SEARCH ELEMENTS ===
+2025-11-21 12:20:47,701 INFO DebugUtil: Found 2 elements containing text 'Search':
+2025-11-21 12:20:47,830 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:20:47,966 INFO DebugUtil:   2. Tag: script, Class: No class, ID: No id
+2025-11-21 12:20:47,967 INFO DebugTest: 
+=== LOOKING FOR INPUT FIELDS ===
+2025-11-21 12:20:48,020 WARNING DebugUtil: Element not found: xpath='//input'
+2025-11-21 12:20:48,074 WARNING DebugUtil: Element not found: xpath='//input[@type='text']'
+2025-11-21 12:20:48,114 WARNING DebugUtil: Element not found: xpath='//input[contains(@placeholder, 'city')]'
+2025-11-21 12:20:48,163 WARNING DebugUtil: Element not found: xpath='//input[contains(@placeholder, 'where')]'
+2025-11-21 12:20:48,164 INFO DebugTest: 
+=== LOOKING FOR POPUPS/MODALS ===
+2025-11-21 12:20:48,200 INFO DebugUtil: Found 2 elements containing text 'Continue':
+2025-11-21 12:20:48,312 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:20:48,420 INFO DebugUtil:   2. Tag: script, Class: No class, ID: No id
+2025-11-21 12:20:48,465 WARNING DebugUtil: Element not found: xpath='//div[contains(@class, 'modal')]'
+2025-11-21 12:20:48,506 WARNING DebugUtil: Element not found: xpath='//div[contains(@class, 'popup')]'
+2025-11-21 12:20:48,545 INFO DebugUtil: Element found with xpath='//div[contains(@class, 'overlay')]':
+2025-11-21 12:20:48,580 INFO DebugUtil:   Tag: div
+2025-11-21 12:20:48,614 INFO DebugUtil:   Text: 
+2025-11-21 12:20:48,647 INFO DebugUtil:   Visible: False
+2025-11-21 12:20:48,679 INFO DebugUtil:   Enabled: True
+2025-11-21 12:20:48,738 INFO DebugUtil:   class: pwa-login overlay-wrapper
+2025-11-21 12:20:49,206 INFO DebugUtil: Debug screenshot saved: screenshots/final_debug.png
+2025-11-21 12:20:49,207 INFO DebugTest: === DEBUG TEST COMPLETED ===
+2025-11-21 12:21:14,537 INFO DebugTest: === STARTING STEP-BY-STEP DEBUG TEST ===
+2025-11-21 12:21:16,902 INFO DebugTest: Step 1: Navigating to https://www.makemytrip.com/
+2025-11-21 12:21:27,230 INFO DebugUtil: Debug screenshot saved: screenshots/step1_navigation.png
+2025-11-21 12:21:27,231 INFO DebugTest: Step 2: Waiting for page to load
+2025-11-21 12:21:27,294 INFO HomePage: Page loaded successfully
+2025-11-21 12:21:27,294 INFO DebugUtil: Waiting 3 seconds for 'page elements to stabilize' to appear...
+2025-11-21 12:21:27,295 INFO DebugUtil: Debug check 1/3
+2025-11-21 12:21:27,397 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:21:27,441 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:21:28,442 INFO DebugUtil: Debug check 2/3
+2025-11-21 12:21:28,596 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:21:28,654 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:21:29,654 INFO DebugUtil: Debug check 3/3
+2025-11-21 12:21:29,703 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:21:29,728 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:21:31,043 INFO DebugUtil: Debug screenshot saved: screenshots/step2_page_loaded.png
+2025-11-21 12:21:31,043 INFO DebugTest: Step 3: Looking for popups to close
+2025-11-21 12:21:31,044 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:21:31,195 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:21:31,762 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:21:33,102 INFO DebugUtil: Debug screenshot saved: screenshots/step3_popup_closed.png
+2025-11-21 12:21:33,103 INFO DebugTest: Step 4: Looking for Hotels tab
+2025-11-21 12:21:33,138 INFO DebugUtil: Found 14 elements containing text 'Hotel':
+2025-11-21 12:21:33,236 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:21:33,328 INFO DebugUtil:   2. Tag: title, Class: No class, ID: No id
+2025-11-21 12:21:33,414 INFO DebugUtil:   3. Tag: p, Class: No class, ID: No id
+2025-11-21 12:21:33,502 INFO DebugUtil:   4. Tag: span, Class: labelText, ID: No id
+2025-11-21 12:21:33,606 INFO DebugUtil:   5. Tag: p, Class: indexstyle__StoreHeading-sc-wzok45-1 dUEjHf, ID: No id
+2025-11-21 12:21:33,696 INFO DebugUtil:   6. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:21:33,802 INFO DebugUtil:   7. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:21:33,900 INFO DebugUtil:   8. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:21:34,025 INFO DebugUtil:   9. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:21:34,141 INFO DebugUtil:   10. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:21:34,258 INFO DebugUtil:   11. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:21:34,372 INFO DebugUtil:   12. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:21:34,492 INFO DebugUtil:   13. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:21:34,619 INFO DebugUtil:   14. Tag: script, Class: No class, ID: No id
+2025-11-21 12:21:34,904 INFO DebugUtil: Debug screenshot saved: screenshots/step4_looking_for_hotels.png
+2025-11-21 12:21:34,904 INFO DebugTest: Found Hotels-related elements, attempting to click
+2025-11-21 12:21:34,905 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:21:34,941 INFO HomePage: Page loaded successfully
+2025-11-21 12:21:34,941 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:21:38,412 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:21:38,834 INFO DebugUtil: Debug screenshot saved: screenshots/step4_hotels_clicked.png
+2025-11-21 12:21:38,835 INFO DebugTest: Step 5: Looking for search field
+2025-11-21 12:21:39,680 INFO DebugUtil: Found 4 elements containing text 'Search':
+2025-11-21 12:21:39,783 INFO DebugUtil:   1. Tag: style, Class: No class, ID: No id
+2025-11-21 12:21:39,883 INFO DebugUtil:   2. Tag: style, Class: No class, ID: No id
+2025-11-21 12:21:39,967 INFO DebugUtil:   3. Tag: p, Class: No class, ID: No id
+2025-11-21 12:21:40,054 INFO DebugUtil:   4. Tag: script, Class: No class, ID: No id
+2025-11-21 12:21:43,099 INFO DebugUtil: Found 12 clickable elements:
+2025-11-21 12:21:43,099 INFO DebugUtil:   1. button - Text: 'OPEN IN APP' - Class: 'downloadAppBnr__cta appendLeft8' - ID: 'No id'
+2025-11-21 12:21:43,100 INFO DebugUtil:   2. button - Text: 'Near me' - Class: 'mdWidgetFld__nearMeBtn tapEffect' - ID: 'No id'
+2025-11-21 12:21:43,100 INFO DebugUtil:   3. button - Text: 'Today' - Class: 'nearbyDay active' - ID: 'No id'
+2025-11-21 12:21:43,100 INFO DebugUtil:   4. button - Text: 'Tomorrow' - Class: 'nearbyDay ' - ID: 'No id'
+2025-11-21 12:21:43,101 INFO DebugUtil:   5. button - Text: 'SEARCH' - Class: 'font16 lato-black button appendTop10 latoBlack rip' - ID: 'No id'
+2025-11-21 12:21:43,101 INFO DebugUtil:   6. button - Text: 'View All' - Class: 'violetText hoverEffect noButton latoBlack font13' - ID: 'No id'
+2025-11-21 12:21:43,102 INFO DebugUtil:   7. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:21:43,102 INFO DebugUtil:   8. a - Text: 'No text' - Class: 'sp__srchFrmSprt sp__srchFrmSprt--bckArw' - ID: 'No id'
+2025-11-21 12:21:43,103 INFO DebugUtil:   9. a - Text: 'Discover by Brands
+Taj, Marriott, Oberoi, Hyatt & ' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:21:43,103 INFO DebugUtil:   10. a - Text: 'Luxe Villas
+Premium Villas with Superlative Experi' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:21:43,537 INFO DebugUtil: Debug screenshot saved: screenshots/step5_search_elements.png
+2025-11-21 12:21:43,537 INFO DebugTest: === STEP-BY-STEP DEBUG COMPLETED ===
+2025-11-21 12:23:14,647 INFO RealisticTest: === Simple Navigation Test ===
+2025-11-21 12:23:28,435 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:23:28,629 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:23:29,473 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:23:32,475 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:23:32,501 INFO HomePage: Page loaded successfully
+2025-11-21 12:23:32,501 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:23:35,686 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:23:38,712 INFO RealisticTest: ✅ Simple navigation test passed
+2025-11-21 12:23:51,836 INFO RealisticTest: === Simple Navigation Test ===
+2025-11-21 12:24:02,300 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:24:02,569 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:24:03,777 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:24:06,778 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:24:06,816 INFO HomePage: Page loaded successfully
+2025-11-21 12:24:06,817 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:24:12,592 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:24:15,621 INFO RealisticTest: ✅ Simple navigation test passed
+2025-11-21 12:24:28,194 INFO RealisticTest: === Starting Realistic MakeMyTrip Test ===
+2025-11-21 12:24:32,859 INFO RealisticTest: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:24:45,007 INFO HomePage: Page loaded successfully
+2025-11-21 12:24:45,447 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step1_initial.png
+2025-11-21 12:24:45,447 INFO RealisticTest: Closing login popup...
+2025-11-21 12:24:45,447 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:24:50,963 WARNING WaitUtil: Visibility wait timeout for xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:25:01,318 WARNING WaitUtil: Presence wait timeout for xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:25:06,609 ERROR WaitUtil: Element not found after all strategies: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:25:11,774 WARNING WaitUtil: Visibility wait timeout for xpath='//button[contains(@class, 'close')]'
+2025-11-21 12:25:22,027 WARNING WaitUtil: Presence wait timeout for xpath='//button[contains(@class, 'close')]'
+2025-11-21 12:25:27,309 ERROR WaitUtil: Element not found after all strategies: xpath='//button[contains(@class, 'close')]'
+2025-11-21 12:25:32,736 WARNING WaitUtil: Visibility wait timeout for xpath='//div[contains(@class, 'modal')]//button[contains(@class, 'close')]'
+2025-11-21 12:25:43,119 WARNING WaitUtil: Presence wait timeout for xpath='//div[contains(@class, 'modal')]//button[contains(@class, 'close')]'
+2025-11-21 12:25:48,447 ERROR WaitUtil: Element not found after all strategies: xpath='//div[contains(@class, 'modal')]//button[contains(@class, 'close')]'
+2025-11-21 12:25:53,885 WARNING WaitUtil: Visibility wait timeout for css_selector='[data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:26:04,212 WARNING WaitUtil: Presence wait timeout for css_selector='[data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:26:09,509 ERROR WaitUtil: Element not found after all strategies: css_selector='[data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:26:09,510 INFO HomePage: No login popup found or already closed.
+2025-11-21 12:26:11,866 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step2_popup_closed.png
+2025-11-21 12:26:11,866 INFO RealisticTest: Clicking Hotels tab...
+2025-11-21 12:26:11,867 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:26:11,902 INFO HomePage: Page loaded successfully
+2025-11-21 12:26:11,902 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:26:14,911 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:26:18,193 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step3_hotels_clicked.png
+2025-11-21 12:26:18,194 INFO RealisticTest: Examining available elements after Hotels click...
+2025-11-21 12:26:20,939 INFO DebugUtil: Found 12 clickable elements:
+2025-11-21 12:26:20,940 INFO DebugUtil:   1. button - Text: 'OPEN IN APP' - Class: 'downloadAppBnr__cta appendLeft8' - ID: 'No id'
+2025-11-21 12:26:20,940 INFO DebugUtil:   2. button - Text: 'Near me' - Class: 'mdWidgetFld__nearMeBtn tapEffect' - ID: 'No id'
+2025-11-21 12:26:20,941 INFO DebugUtil:   3. button - Text: 'Today' - Class: 'nearbyDay active' - ID: 'No id'
+2025-11-21 12:26:20,941 INFO DebugUtil:   4. button - Text: 'Tomorrow' - Class: 'nearbyDay ' - ID: 'No id'
+2025-11-21 12:26:20,941 INFO DebugUtil:   5. button - Text: 'SEARCH' - Class: 'font16 lato-black button appendTop10 latoBlack rip' - ID: 'No id'
+2025-11-21 12:26:20,942 INFO DebugUtil:   6. button - Text: 'View All' - Class: 'violetText hoverEffect noButton latoBlack font13' - ID: 'No id'
+2025-11-21 12:26:20,942 INFO DebugUtil:   7. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:26:20,942 INFO DebugUtil:   8. a - Text: 'No text' - Class: 'sp__srchFrmSprt sp__srchFrmSprt--bckArw' - ID: 'No id'
+2025-11-21 12:26:20,942 INFO DebugUtil:   9. a - Text: 'Discover by Brands
+Taj, Marriott, Oberoi, Hyatt & ' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:26:20,942 INFO DebugUtil:   10. a - Text: 'Luxe Villas
+Premium Villas with Superlative Experi' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:26:20,943 INFO RealisticTest: Attempting to interact with location selector...
+2025-11-21 12:26:22,450 INFO RealisticTest: Clicked Near Me button with: //button[text()='Near me']
+2025-11-21 12:26:25,681 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step4_near_me_clicked.png
+2025-11-21 12:26:25,681 INFO RealisticTest: Attempting to click SEARCH button directly...
+2025-11-21 12:26:25,715 INFO RealisticTest: Search button attempt failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='SEARCH']"}
+  (Session info: chrome=133.0.6943.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C4A0C6A5+28789]
+	(No symbol) [0x00007FF7C4975B20]
+	(No symbol) [0x00007FF7C4808F9A]
+	(No symbol) [0x00007FF7C485F346]
+	(No symbol) [0x00007FF7C485F57C]
+	(No symbol) [0x00007FF7C48B2B17]
+	(No symbol) [0x00007FF7C488736F]
+	(No symbol) [0x00007FF7C48AF7E3]
+	(No symbol) [0x00007FF7C4887103]
+	(No symbol) [0x00007FF7C484FFC0]
+	(No symbol) [0x00007FF7C4851273]
+	GetHandleVerifier [0x00007FF7C4D51AED+3458237]
+	GetHandleVerifier [0x00007FF7C4D6829C+3550316]
+	GetHandleVerifier [0x00007FF7C4D5DB9D+3507565]
+	GetHandleVerifier [0x00007FF7C4AD2C6A+841274]
+	(No symbol) [0x00007FF7C49809EF]
+	(No symbol) [0x00007FF7C497CB34]
+	(No symbol) [0x00007FF7C497CCD6]
+	(No symbol) [0x00007FF7C496C119]
+	(No symbol) [0x00007FFB4B0FE8D7]
+	RtlUserThreadStart [0x00007FFB4C0CC53C+44]
+
+2025-11-21 12:26:25,761 INFO RealisticTest: Search button attempt failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'SEARCH')]"}
+  (Session info: chrome=133.0.6943.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C4A0C6A5+28789]
+	(No symbol) [0x00007FF7C4975B20]
+	(No symbol) [0x00007FF7C4808F9A]
+	(No symbol) [0x00007FF7C485F346]
+	(No symbol) [0x00007FF7C485F57C]
+	(No symbol) [0x00007FF7C48B2B17]
+	(No symbol) [0x00007FF7C488736F]
+	(No symbol) [0x00007FF7C48AF7E3]
+	(No symbol) [0x00007FF7C4887103]
+	(No symbol) [0x00007FF7C484FFC0]
+	(No symbol) [0x00007FF7C4851273]
+	GetHandleVerifier [0x00007FF7C4D51AED+3458237]
+	GetHandleVerifier [0x00007FF7C4D6829C+3550316]
+	GetHandleVerifier [0x00007FF7C4D5DB9D+3507565]
+	GetHandleVerifier [0x00007FF7C4AD2C6A+841274]
+	(No symbol) [0x00007FF7C49809EF]
+	(No symbol) [0x00007FF7C497CB34]
+	(No symbol) [0x00007FF7C497CCD6]
+	(No symbol) [0x00007FF7C496C119]
+	(No symbol) [0x00007FFB4B0FE8D7]
+	RtlUserThreadStart [0x00007FFB4C0CC53C+44]
+
+2025-11-21 12:26:25,815 INFO RealisticTest: Current page - Title: MakeMyTrip.com: Save upto 60% on Hotel Booking 4,442,00+ Hotels Worldwide, URL: https://www.makemytrip.com/hotels/
+2025-11-21 12:26:25,847 INFO RealisticTest: Found 4 elements with: //div[contains(@class, 'hotel')]
+2025-11-21 12:26:25,847 INFO RealisticTest: ✅ SUCCESS: Found hotel-related content on page
+2025-11-21 12:26:26,061 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_success.png
+2025-11-21 12:26:38,158 INFO RealisticTest: === Starting Realistic MakeMyTrip Test ===
+2025-11-21 12:26:42,811 INFO RealisticTest: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:26:53,910 INFO HomePage: Page loaded successfully
+2025-11-21 12:26:54,205 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step1_initial.png
+2025-11-21 12:26:54,206 INFO RealisticTest: Closing login popup...
+2025-11-21 12:26:54,206 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:26:54,337 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:26:54,792 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:26:58,019 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step2_popup_closed.png
+2025-11-21 12:26:58,020 INFO RealisticTest: Clicking Hotels tab...
+2025-11-21 12:26:58,020 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:26:58,047 INFO HomePage: Page loaded successfully
+2025-11-21 12:26:58,047 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:27:01,408 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:27:04,671 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step3_hotels_clicked.png
+2025-11-21 12:27:04,671 INFO RealisticTest: Examining available elements after Hotels click...
+2025-11-21 12:27:07,678 INFO DebugUtil: Found 12 clickable elements:
+2025-11-21 12:27:07,678 INFO DebugUtil:   1. button - Text: 'OPEN IN APP' - Class: 'downloadAppBnr__cta appendLeft8' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   2. button - Text: 'Near me' - Class: 'mdWidgetFld__nearMeBtn tapEffect' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   3. button - Text: 'Today' - Class: 'nearbyDay active' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   4. button - Text: 'Tomorrow' - Class: 'nearbyDay ' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   5. button - Text: 'SEARCH' - Class: 'font16 lato-black button appendTop10 latoBlack rip' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   6. button - Text: 'View All' - Class: 'violetText hoverEffect noButton latoBlack font13' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   7. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   8. a - Text: 'No text' - Class: 'sp__srchFrmSprt sp__srchFrmSprt--bckArw' - ID: 'No id'
+2025-11-21 12:27:07,679 INFO DebugUtil:   9. a - Text: 'Discover by Brands
+Taj, Marriott, Oberoi, Hyatt & ' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:27:07,680 INFO DebugUtil:   10. a - Text: 'Luxe Villas
+Premium Villas with Superlative Experi' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:27:07,680 INFO RealisticTest: Attempting to interact with location selector...
+2025-11-21 12:27:09,249 INFO RealisticTest: Clicked Near Me button with: //button[text()='Near me']
+2025-11-21 12:27:12,506 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step4_near_me_clicked.png
+2025-11-21 12:27:12,506 INFO RealisticTest: Attempting to click SEARCH button directly...
+2025-11-21 12:27:12,544 INFO RealisticTest: Search button attempt failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='SEARCH']"}
+  (Session info: chrome=133.0.6943.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C4A0C6A5+28789]
+	(No symbol) [0x00007FF7C4975B20]
+	(No symbol) [0x00007FF7C4808F9A]
+	(No symbol) [0x00007FF7C485F346]
+	(No symbol) [0x00007FF7C485F57C]
+	(No symbol) [0x00007FF7C48B2B17]
+	(No symbol) [0x00007FF7C488736F]
+	(No symbol) [0x00007FF7C48AF7E3]
+	(No symbol) [0x00007FF7C4887103]
+	(No symbol) [0x00007FF7C484FFC0]
+	(No symbol) [0x00007FF7C4851273]
+	GetHandleVerifier [0x00007FF7C4D51AED+3458237]
+	GetHandleVerifier [0x00007FF7C4D6829C+3550316]
+	GetHandleVerifier [0x00007FF7C4D5DB9D+3507565]
+	GetHandleVerifier [0x00007FF7C4AD2C6A+841274]
+	(No symbol) [0x00007FF7C49809EF]
+	(No symbol) [0x00007FF7C497CB34]
+	(No symbol) [0x00007FF7C497CCD6]
+	(No symbol) [0x00007FF7C496C119]
+	(No symbol) [0x00007FFB4B0FE8D7]
+	RtlUserThreadStart [0x00007FFB4C0CC53C+44]
+
+2025-11-21 12:27:12,580 INFO RealisticTest: Search button attempt failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'SEARCH')]"}
+  (Session info: chrome=133.0.6943.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C4A0C6A5+28789]
+	(No symbol) [0x00007FF7C4975B20]
+	(No symbol) [0x00007FF7C4808F9A]
+	(No symbol) [0x00007FF7C485F346]
+	(No symbol) [0x00007FF7C485F57C]
+	(No symbol) [0x00007FF7C48B2B17]
+	(No symbol) [0x00007FF7C488736F]
+	(No symbol) [0x00007FF7C48AF7E3]
+	(No symbol) [0x00007FF7C4887103]
+	(No symbol) [0x00007FF7C484FFC0]
+	(No symbol) [0x00007FF7C4851273]
+	GetHandleVerifier [0x00007FF7C4D51AED+3458237]
+	GetHandleVerifier [0x00007FF7C4D6829C+3550316]
+	GetHandleVerifier [0x00007FF7C4D5DB9D+3507565]
+	GetHandleVerifier [0x00007FF7C4AD2C6A+841274]
+	(No symbol) [0x00007FF7C49809EF]
+	(No symbol) [0x00007FF7C497CB34]
+	(No symbol) [0x00007FF7C497CCD6]
+	(No symbol) [0x00007FF7C496C119]
+	(No symbol) [0x00007FFB4B0FE8D7]
+	RtlUserThreadStart [0x00007FFB4C0CC53C+44]
+
+2025-11-21 12:27:12,639 INFO RealisticTest: Current page - Title: MakeMyTrip.com: Save upto 60% on Hotel Booking 4,442,00+ Hotels Worldwide, URL: https://www.makemytrip.com/hotels/
+2025-11-21 12:27:12,673 INFO RealisticTest: Found 4 elements with: //div[contains(@class, 'hotel')]
+2025-11-21 12:27:12,673 INFO RealisticTest: ✅ SUCCESS: Found hotel-related content on page
+2025-11-21 12:27:12,956 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_success.png
+2025-11-21 12:27:48,698 INFO DebugTest: === STARTING DEBUG TEST ===
+2025-11-21 12:27:48,701 INFO DebugTest: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:28:04,893 INFO DebugUtil: Available contexts: ['NATIVE_APP', 'CHROMIUM']
+2025-11-21 12:28:04,894 INFO DebugUtil: Current context: CHROMIUM
+2025-11-21 12:28:05,276 INFO DebugUtil: Debug screenshot saved: screenshots/initial_page.png
+2025-11-21 12:28:05,277 INFO DebugUtil: Waiting 5 seconds for 'page to fully load' to appear...
+2025-11-21 12:28:05,277 INFO DebugUtil: Debug check 1/5
+2025-11-21 12:28:05,454 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:05,515 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:06,517 INFO DebugUtil: Debug check 2/5
+2025-11-21 12:28:06,593 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:06,629 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:07,630 INFO DebugUtil: Debug check 3/5
+2025-11-21 12:28:07,717 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:07,762 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:08,763 INFO DebugUtil: Debug check 4/5
+2025-11-21 12:28:08,841 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:08,897 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:09,898 INFO DebugUtil: Debug check 5/5
+2025-11-21 12:28:10,038 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:10,108 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:11,180 INFO DebugUtil: Page source saved to: page_source_debug.html
+2025-11-21 12:28:11,181 INFO DebugTest: 
+=== LOOKING FOR HOTELS ELEMENTS ===
+2025-11-21 12:28:11,228 INFO DebugUtil: Found 14 elements containing text 'Hotel':
+2025-11-21 12:28:11,330 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:11,415 INFO DebugUtil:   2. Tag: title, Class: No class, ID: No id
+2025-11-21 12:28:11,498 INFO DebugUtil:   3. Tag: p, Class: No class, ID: No id
+2025-11-21 12:28:11,572 INFO DebugUtil:   4. Tag: span, Class: labelText, ID: No id
+2025-11-21 12:28:11,657 INFO DebugUtil:   5. Tag: p, Class: indexstyle__StoreHeading-sc-wzok45-1 dUEjHf, ID: No id
+2025-11-21 12:28:11,752 INFO DebugUtil:   6. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:28:11,843 INFO DebugUtil:   7. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:28:11,963 INFO DebugUtil:   8. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:28:12,106 INFO DebugUtil:   9. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:28:12,241 INFO DebugUtil:   10. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:28:12,391 INFO DebugUtil:   11. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:28:12,542 INFO DebugUtil:   12. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:28:12,673 INFO DebugUtil:   13. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:28:12,814 INFO DebugUtil:   14. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:12,815 INFO DebugTest: 
+=== ALL CLICKABLE ELEMENTS ===
+2025-11-21 12:28:21,835 INFO DebugUtil: Found 21 clickable elements:
+2025-11-21 12:28:21,835 INFO DebugUtil:   1. button - Text: 'Get the App' - Class: 'styles__DownloadBtn-sc-1h6kcf5-10 iMtEJv' - ID: 'No id'
+2025-11-21 12:28:21,835 INFO DebugUtil:   2. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,835 INFO DebugUtil:   3. a - Text: 'Login Now' - Class: 'indexstyles__Login-sc-9lbmyv-0 HpQEl' - ID: 'No id'
+2025-11-21 12:28:21,836 INFO DebugUtil:   4. a - Text: 'Flights' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,836 INFO DebugUtil:   5. a - Text: 'Hotels' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,836 INFO DebugUtil:   6. a - Text: 'Trains' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,836 INFO DebugUtil:   7. a - Text: 'Holiday Packages' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,836 INFO DebugUtil:   8. a - Text: 'Airport Cabs' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,836 INFO DebugUtil:   9. a - Text: 'Homestays & Villas' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,837 INFO DebugUtil:   10. a - Text: 'Bus' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:28:21,837 INFO DebugTest: 
+=== LOOKING FOR NAVIGATION MENU ===
+2025-11-21 12:28:21,896 WARNING DebugUtil: Element not found: xpath='//nav'
+2025-11-21 12:28:21,932 WARNING DebugUtil: Element not found: xpath='//ul[contains(@class, 'nav')]'
+2025-11-21 12:28:21,967 WARNING DebugUtil: Element not found: xpath='//div[contains(@class, 'menu')]'
+2025-11-21 12:28:21,999 INFO DebugUtil: Element found with xpath='//a[contains(@data-cy, 'menu')]':
+2025-11-21 12:28:22,033 INFO DebugUtil:   Tag: a
+2025-11-21 12:28:22,066 INFO DebugUtil:   Text: Flights
+2025-11-21 12:28:22,100 INFO DebugUtil:   Visible: True
+2025-11-21 12:28:22,136 INFO DebugUtil:   Enabled: True
+2025-11-21 12:28:22,335 INFO DebugUtil:   data-cy: menu_item_clicked_0
+2025-11-21 12:28:22,392 INFO DebugUtil: Element found with css_selector='[data-cy*='menu']':
+2025-11-21 12:28:22,418 INFO DebugUtil:   Tag: a
+2025-11-21 12:28:22,466 INFO DebugUtil:   Text: Flights
+2025-11-21 12:28:22,495 INFO DebugUtil:   Visible: True
+2025-11-21 12:28:22,525 INFO DebugUtil:   Enabled: True
+2025-11-21 12:28:22,712 INFO DebugUtil:   data-cy: menu_item_clicked_0
+2025-11-21 12:28:22,759 INFO DebugTest: 
+=== LOOKING FOR SEARCH ELEMENTS ===
+2025-11-21 12:28:22,809 INFO DebugUtil: Found 2 elements containing text 'Search':
+2025-11-21 12:28:22,957 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:23,094 INFO DebugUtil:   2. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:23,095 INFO DebugTest: 
+=== LOOKING FOR INPUT FIELDS ===
+2025-11-21 12:28:23,149 INFO DebugUtil: Element found with xpath='//input':
+2025-11-21 12:28:23,207 INFO DebugUtil:   Tag: input
+2025-11-21 12:28:23,279 INFO DebugUtil:   Text: 
+2025-11-21 12:28:23,342 INFO DebugUtil:   Visible: True
+2025-11-21 12:28:23,415 INFO DebugUtil:   Enabled: True
+2025-11-21 12:28:23,524 INFO DebugUtil:   class: style__Input-sc-1m7e8qp-2 llmRAl
+2025-11-21 12:28:23,783 INFO DebugUtil:   data-cy: floatingInput
+2025-11-21 12:28:23,897 WARNING DebugUtil: Element not found: xpath='//input[@type='text']'
+2025-11-21 12:28:23,952 WARNING DebugUtil: Element not found: xpath='//input[contains(@placeholder, 'city')]'
+2025-11-21 12:28:24,011 WARNING DebugUtil: Element not found: xpath='//input[contains(@placeholder, 'where')]'
+2025-11-21 12:28:24,011 INFO DebugTest: 
+=== LOOKING FOR POPUPS/MODALS ===
+2025-11-21 12:28:24,066 INFO DebugUtil: Found 2 elements containing text 'Continue':
+2025-11-21 12:28:24,206 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:24,322 INFO DebugUtil:   2. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:24,370 WARNING DebugUtil: Element not found: xpath='//div[contains(@class, 'modal')]'
+2025-11-21 12:28:24,412 WARNING DebugUtil: Element not found: xpath='//div[contains(@class, 'popup')]'
+2025-11-21 12:28:24,453 INFO DebugUtil: Element found with xpath='//div[contains(@class, 'overlay')]':
+2025-11-21 12:28:24,500 INFO DebugUtil:   Tag: div
+2025-11-21 12:28:24,591 INFO DebugUtil:   Text: Login / Signup to
+Join the club of 10cr+ happy travellers
+Get 12% OFF on flights as a welcome gift
++91
+ENTER MOBILE NUMBER
+CONTINUE
+or
+By proceeding, you agree to MakeMyTrip's Privacy Policy, User Agreement and T&Cs.
+2025-11-21 12:28:24,642 INFO DebugUtil:   Visible: True
+2025-11-21 12:28:24,697 INFO DebugUtil:   Enabled: True
+2025-11-21 12:28:24,786 INFO DebugUtil:   class: pwa-login overlay-wrapper
+2025-11-21 12:28:25,294 INFO DebugUtil: Debug screenshot saved: screenshots/final_debug.png
+2025-11-21 12:28:25,295 INFO DebugTest: === DEBUG TEST COMPLETED ===
+2025-11-21 12:28:36,533 INFO DebugTest: === STARTING STEP-BY-STEP DEBUG TEST ===
+2025-11-21 12:28:38,896 INFO DebugTest: Step 1: Navigating to https://www.makemytrip.com/
+2025-11-21 12:28:48,517 INFO DebugUtil: Debug screenshot saved: screenshots/step1_navigation.png
+2025-11-21 12:28:48,517 INFO DebugTest: Step 2: Waiting for page to load
+2025-11-21 12:28:48,592 INFO HomePage: Page loaded successfully
+2025-11-21 12:28:48,593 INFO DebugUtil: Waiting 3 seconds for 'page elements to stabilize' to appear...
+2025-11-21 12:28:48,593 INFO DebugUtil: Debug check 1/3
+2025-11-21 12:28:48,774 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:48,855 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:49,857 INFO DebugUtil: Debug check 2/3
+2025-11-21 12:28:50,107 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:50,198 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:51,199 INFO DebugUtil: Debug check 3/3
+2025-11-21 12:28:51,421 INFO DebugUtil:   Page: MakeMyTrip - #1 Travel Website 50% OFF on Hotels, Flights & Holiday - URL: https://www.makemytrip.com/
+2025-11-21 12:28:51,539 INFO DebugUtil:   Page ready state: complete
+2025-11-21 12:28:52,849 INFO DebugUtil: Debug screenshot saved: screenshots/step2_page_loaded.png
+2025-11-21 12:28:52,850 INFO DebugTest: Step 3: Looking for popups to close
+2025-11-21 12:28:52,850 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:28:53,079 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:28:54,111 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:28:55,460 INFO DebugUtil: Debug screenshot saved: screenshots/step3_popup_closed.png
+2025-11-21 12:28:55,461 INFO DebugTest: Step 4: Looking for Hotels tab
+2025-11-21 12:28:55,508 INFO DebugUtil: Found 14 elements containing text 'Hotel':
+2025-11-21 12:28:55,643 INFO DebugUtil:   1. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:55,752 INFO DebugUtil:   2. Tag: title, Class: No class, ID: No id
+2025-11-21 12:28:55,877 INFO DebugUtil:   3. Tag: p, Class: No class, ID: No id
+2025-11-21 12:28:55,995 INFO DebugUtil:   4. Tag: span, Class: labelText, ID: No id
+2025-11-21 12:28:56,098 INFO DebugUtil:   5. Tag: p, Class: indexstyle__StoreHeading-sc-wzok45-1 dUEjHf, ID: No id
+2025-11-21 12:28:56,219 INFO DebugUtil:   6. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:28:56,346 INFO DebugUtil:   7. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:28:56,469 INFO DebugUtil:   8. Tag: div, Class: indexstyle__StoreFooter-sc-wzok45-4 bmojzM, ID: No id
+2025-11-21 12:28:56,603 INFO DebugUtil:   9. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:28:56,725 INFO DebugUtil:   10. Tag: h4, Class: accordion__title makeFlex, ID: No id
+2025-11-21 12:28:56,840 INFO DebugUtil:   11. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:28:56,962 INFO DebugUtil:   12. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:28:57,078 INFO DebugUtil:   13. Tag: a, Class: lightGreyText, ID: No id
+2025-11-21 12:28:57,202 INFO DebugUtil:   14. Tag: script, Class: No class, ID: No id
+2025-11-21 12:28:57,465 INFO DebugUtil: Debug screenshot saved: screenshots/step4_looking_for_hotels.png
+2025-11-21 12:28:57,466 INFO DebugTest: Found Hotels-related elements, attempting to click
+2025-11-21 12:28:57,466 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:28:57,503 INFO HomePage: Page loaded successfully
+2025-11-21 12:28:57,504 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:29:00,913 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:29:01,640 INFO DebugUtil: Debug screenshot saved: screenshots/step4_hotels_clicked.png
+2025-11-21 12:29:01,640 INFO DebugTest: Step 5: Looking for search field
+2025-11-21 12:29:02,174 INFO DebugUtil: Found 4 elements containing text 'Search':
+2025-11-21 12:29:02,257 INFO DebugUtil:   1. Tag: style, Class: No class, ID: No id
+2025-11-21 12:29:02,345 INFO DebugUtil:   2. Tag: style, Class: No class, ID: No id
+2025-11-21 12:29:02,430 INFO DebugUtil:   3. Tag: p, Class: No class, ID: No id
+2025-11-21 12:29:02,527 INFO DebugUtil:   4. Tag: script, Class: No class, ID: No id
+2025-11-21 12:29:05,082 INFO DebugUtil: Found 12 clickable elements:
+2025-11-21 12:29:05,083 INFO DebugUtil:   1. button - Text: 'OPEN IN APP' - Class: 'downloadAppBnr__cta appendLeft8' - ID: 'No id'
+2025-11-21 12:29:05,083 INFO DebugUtil:   2. button - Text: 'Near me' - Class: 'mdWidgetFld__nearMeBtn tapEffect' - ID: 'No id'
+2025-11-21 12:29:05,083 INFO DebugUtil:   3. button - Text: 'Today' - Class: 'nearbyDay active' - ID: 'No id'
+2025-11-21 12:29:05,084 INFO DebugUtil:   4. button - Text: 'Tomorrow' - Class: 'nearbyDay ' - ID: 'No id'
+2025-11-21 12:29:05,084 INFO DebugUtil:   5. button - Text: 'SEARCH' - Class: 'font16 lato-black button appendTop10 latoBlack rip' - ID: 'No id'
+2025-11-21 12:29:05,084 INFO DebugUtil:   6. button - Text: 'View All' - Class: 'violetText hoverEffect noButton latoBlack font13' - ID: 'No id'
+2025-11-21 12:29:05,084 INFO DebugUtil:   7. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:29:05,084 INFO DebugUtil:   8. a - Text: 'No text' - Class: 'sp__srchFrmSprt sp__srchFrmSprt--bckArw' - ID: 'No id'
+2025-11-21 12:29:05,085 INFO DebugUtil:   9. a - Text: 'Discover by Brands
+Taj, Marriott, Oberoi, Hyatt & ' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:29:05,085 INFO DebugUtil:   10. a - Text: 'Luxe Villas
+Premium Villas with Superlative Experi' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:29:05,476 INFO DebugUtil: Debug screenshot saved: screenshots/step5_search_elements.png
+2025-11-21 12:29:05,476 INFO DebugTest: === STEP-BY-STEP DEBUG COMPLETED ===
+2025-11-21 12:29:15,963 INFO RealisticTest: === Starting Realistic MakeMyTrip Test ===
+2025-11-21 12:29:20,652 INFO RealisticTest: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:29:30,019 INFO HomePage: Page loaded successfully
+2025-11-21 12:29:30,495 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step1_initial.png
+2025-11-21 12:29:30,495 INFO RealisticTest: Closing login popup...
+2025-11-21 12:29:30,496 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:29:30,706 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:29:31,365 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:29:34,581 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step2_popup_closed.png
+2025-11-21 12:29:34,581 INFO RealisticTest: Clicking Hotels tab...
+2025-11-21 12:29:34,581 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:29:34,606 INFO HomePage: Page loaded successfully
+2025-11-21 12:29:34,606 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:29:38,039 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:29:41,295 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step3_hotels_clicked.png
+2025-11-21 12:29:41,295 INFO RealisticTest: Examining available elements after Hotels click...
+2025-11-21 12:29:43,642 INFO DebugUtil: Found 12 clickable elements:
+2025-11-21 12:29:43,642 INFO DebugUtil:   1. button - Text: 'OPEN IN APP' - Class: 'downloadAppBnr__cta appendLeft8' - ID: 'No id'
+2025-11-21 12:29:43,642 INFO DebugUtil:   2. button - Text: 'Near me' - Class: 'mdWidgetFld__nearMeBtn tapEffect' - ID: 'No id'
+2025-11-21 12:29:43,643 INFO DebugUtil:   3. button - Text: 'Today' - Class: 'nearbyDay active' - ID: 'No id'
+2025-11-21 12:29:43,643 INFO DebugUtil:   4. button - Text: 'Tomorrow' - Class: 'nearbyDay ' - ID: 'No id'
+2025-11-21 12:29:43,643 INFO DebugUtil:   5. button - Text: 'SEARCH' - Class: 'font16 lato-black button appendTop10 latoBlack rip' - ID: 'No id'
+2025-11-21 12:29:43,643 INFO DebugUtil:   6. button - Text: 'View All' - Class: 'violetText hoverEffect noButton latoBlack font13' - ID: 'No id'
+2025-11-21 12:29:43,643 INFO DebugUtil:   7. a - Text: 'No text' - Class: 'No class' - ID: 'No id'
+2025-11-21 12:29:43,644 INFO DebugUtil:   8. a - Text: 'No text' - Class: 'sp__srchFrmSprt sp__srchFrmSprt--bckArw' - ID: 'No id'
+2025-11-21 12:29:43,644 INFO DebugUtil:   9. a - Text: 'Discover by Brands
+Taj, Marriott, Oberoi, Hyatt & ' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:29:43,644 INFO DebugUtil:   10. a - Text: 'Luxe Villas
+Premium Villas with Superlative Experi' - Class: 'hoverEffect' - ID: 'No id'
+2025-11-21 12:29:43,644 INFO RealisticTest: Attempting to interact with location selector...
+2025-11-21 12:29:45,540 INFO RealisticTest: Clicked Near Me button with: //button[text()='Near me']
+2025-11-21 12:29:48,794 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_step4_near_me_clicked.png
+2025-11-21 12:29:48,794 INFO RealisticTest: Attempting to click SEARCH button directly...
+2025-11-21 12:29:49,079 INFO RealisticTest: Search button attempt failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='SEARCH']"}
+  (Session info: chrome=133.0.6943.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C4A0C6A5+28789]
+	(No symbol) [0x00007FF7C4975B20]
+	(No symbol) [0x00007FF7C4808F9A]
+	(No symbol) [0x00007FF7C485F346]
+	(No symbol) [0x00007FF7C485F57C]
+	(No symbol) [0x00007FF7C48B2B17]
+	(No symbol) [0x00007FF7C488736F]
+	(No symbol) [0x00007FF7C48AF7E3]
+	(No symbol) [0x00007FF7C4887103]
+	(No symbol) [0x00007FF7C484FFC0]
+	(No symbol) [0x00007FF7C4851273]
+	GetHandleVerifier [0x00007FF7C4D51AED+3458237]
+	GetHandleVerifier [0x00007FF7C4D6829C+3550316]
+	GetHandleVerifier [0x00007FF7C4D5DB9D+3507565]
+	GetHandleVerifier [0x00007FF7C4AD2C6A+841274]
+	(No symbol) [0x00007FF7C49809EF]
+	(No symbol) [0x00007FF7C497CB34]
+	(No symbol) [0x00007FF7C497CCD6]
+	(No symbol) [0x00007FF7C496C119]
+	(No symbol) [0x00007FFB4B0FE8D7]
+	RtlUserThreadStart [0x00007FFB4C0CC53C+44]
+
+2025-11-21 12:29:49,231 INFO RealisticTest: Search button attempt failed: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(text(), 'SEARCH')]"}
+  (Session info: chrome=133.0.6943.137); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x00007FF7C4A0C6A5+28789]
+	(No symbol) [0x00007FF7C4975B20]
+	(No symbol) [0x00007FF7C4808F9A]
+	(No symbol) [0x00007FF7C485F346]
+	(No symbol) [0x00007FF7C485F57C]
+	(No symbol) [0x00007FF7C48B2B17]
+	(No symbol) [0x00007FF7C488736F]
+	(No symbol) [0x00007FF7C48AF7E3]
+	(No symbol) [0x00007FF7C4887103]
+	(No symbol) [0x00007FF7C484FFC0]
+	(No symbol) [0x00007FF7C4851273]
+	GetHandleVerifier [0x00007FF7C4D51AED+3458237]
+	GetHandleVerifier [0x00007FF7C4D6829C+3550316]
+	GetHandleVerifier [0x00007FF7C4D5DB9D+3507565]
+	GetHandleVerifier [0x00007FF7C4AD2C6A+841274]
+	(No symbol) [0x00007FF7C49809EF]
+	(No symbol) [0x00007FF7C497CB34]
+	(No symbol) [0x00007FF7C497CCD6]
+	(No symbol) [0x00007FF7C496C119]
+	(No symbol) [0x00007FFB4B0FE8D7]
+	RtlUserThreadStart [0x00007FFB4C0CC53C+44]
+
+2025-11-21 12:29:49,358 INFO RealisticTest: Current page - Title: MakeMyTrip.com: Save upto 60% on Hotel Booking 4,442,00+ Hotels Worldwide, URL: https://www.makemytrip.com/hotels/
+2025-11-21 12:29:49,430 INFO RealisticTest: Found 4 elements with: //div[contains(@class, 'hotel')]
+2025-11-21 12:29:49,430 INFO RealisticTest: ✅ SUCCESS: Found hotel-related content on page
+2025-11-21 12:29:49,600 INFO DebugUtil: Debug screenshot saved: screenshots/realistic_success.png
+2025-11-21 12:30:00,245 INFO RealisticTest: === Simple Navigation Test ===
+2025-11-21 12:30:12,753 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:30:12,929 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:30:14,189 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:30:17,190 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:30:17,217 INFO HomePage: Page loaded successfully
+2025-11-21 12:30:17,217 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:30:39,644 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:30:42,664 INFO RealisticTest: ✅ Simple navigation test passed
+2025-11-21 12:30:53,102 INFO TestSearchResult: Starting hotel search test for Bangalore
+2025-11-21 12:30:57,738 INFO TestSearchResult: Navigating to: https://www.makemytrip.com/
+2025-11-21 12:31:07,638 INFO HomePage: Page loaded successfully
+2025-11-21 12:31:07,639 INFO HomePage: Checking for login popup to close.
+2025-11-21 12:31:07,775 INFO WaitUtil: Element found using visibility wait: xpath='//span[@data-cy='loginBottomsheetCrossClick']'
+2025-11-21 12:31:08,161 INFO HomePage: Login popup closed successfully.
+2025-11-21 12:31:11,163 INFO HomePage: Attempting to tap Hotels tab.
+2025-11-21 12:31:11,186 INFO HomePage: Page loaded successfully
+2025-11-21 12:31:11,187 INFO HomePage: Trying locator 1: //a[@data-cy='menu_item_clicked_1']
+2025-11-21 12:31:14,417 INFO HomePage: Tapped Hotels tab successfully.
+2025-11-21 12:31:16,418 INFO HomePage: Attempting to click location/city search area.
+2025-11-21 12:31:16,418 INFO HomePage: Trying location selector 1: //button[text()='Near me']
+2025-11-21 12:31:17,943 INFO HomePage: Clicked location selector successfully with locator 1.
+2025-11-21 12:31:21,944 INFO HomePage: Attempting to enter search text: Bangalore
+2025-11-21 12:31:21,944 INFO HomePage: Trying input locator 1: //input[@id='react-autowhatever-1-section-0-item-0']
+2025-11-21 12:31:37,473 WARNING WaitUtil: Visibility wait timeout for xpath='//input[@id='react-autowhatever-1-section-0-item-0']'
+2025-11-21 12:31:47,599 WARNING WaitUtil: Presence wait timeout for xpath='//input[@id='react-autowhatever-1-section-0-item-0']'
+2025-11-21 12:32:03,316 ERROR WaitUtil: Element not found after all strategies: xpath='//input[@id='react-autowhatever-1-section-0-item-0']'
+2025-11-21 12:32:03,316 INFO HomePage: Trying input locator 2: //input[contains(@placeholder, 'Enter city')]
+2025-11-21 12:32:18,343 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@placeholder, 'Enter city')]'
+2025-11-21 12:32:28,431 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@placeholder, 'Enter city')]'
+2025-11-21 12:32:44,108 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@placeholder, 'Enter city')]'
+2025-11-21 12:32:44,108 INFO HomePage: Trying input locator 3: //input[contains(@placeholder, 'City')]
+2025-11-21 12:32:59,645 WARNING WaitUtil: Visibility wait timeout for xpath='//input[contains(@placeholder, 'City')]'
+2025-11-21 12:33:09,904 WARNING WaitUtil: Presence wait timeout for xpath='//input[contains(@placeholder, 'City')]'
+2025-11-21 12:33:25,625 ERROR WaitUtil: Element not found after all strategies: xpath='//input[contains(@placeholder, 'City')]'
+2025-11-21 12:33:25,626 INFO HomePage: Trying input locator 4: //input[contains(@placeholder, 'Where')]
+2025-11-21 12:33:25,708 INFO WaitUtil: Element found using visibility wait: xpath='//input[contains(@placeholder, 'Where')]'
+2025-11-21 12:33:26,073 INFO HomePage: Entered search text: Bangalore
+2025-11-21 12:33:32,075 INFO HomePage: Attempting to select first suggestion.
+2025-11-21 12:33:34,076 INFO HomePage: Trying suggestion locator 1: //ul[@id='ui-id-1']/li[1]
+2025-11-21 12:33:49,502 INFO HomePage: Trying suggestion locator 2: //ul[contains(@class, 'suggestion')]/li[1]
+2025-11-21 12:34:04,942 INFO HomePage: Trying suggestion locator 3: //div[contains(@class, 'autoComplete')]//li[1]
+2025-11-21 12:34:20,380 INFO HomePage: Trying suggestion locator 4: //div[@class='react-autosuggest__suggestions-container']//li[1]
+2025-11-21 12:34:35,753 INFO HomePage: Trying suggestion locator 5: .react-autosuggest__suggestion:first-child
+2025-11-21 12:34:51,123 INFO HomePage: Trying suggestion locator 6: [data-cy='suggestion-0']
+2025-11-21 12:35:06,574 INFO WaitUtil: Element found using visibility wait: xpath='//input[@id='autoSuggestWidget']'
+2025-11-21 12:35:06,691 INFO HomePage: Pressed Enter on search field as fallback.
+2025-11-21 12:35:08,692 INFO HomePage: Attempting to select tomorrow's date.
+2025-11-21 12:35:08,692 INFO HomePage: Trying date locator 1: //td[contains(@class, 'DayPicker-Day') and not(contains(@class, 'disabled'))][2]
+2025-11-21 12:35:24,080 INFO HomePage: Trying date locator 2: //div[contains(@class, 'date-picker')]//td[not(contains(@class, 'disabled'))][2]
+2025-11-21 12:35:39,533 INFO HomePage: Trying date locator 3: //button[contains(@class, 'day') and not(contains(@class, 'disabled'))][2]
+2025-11-21 12:35:54,901 INFO HomePage: Trying date locator 4: .DayPicker-Day:not(.DayPicker-Day--disabled):nth-child(2)
+2025-11-21 12:36:10,329 WARNING HomePage: Date picker might not be required or already set.
+2025-11-21 12:36:12,330 INFO HomePage: Attempting to tap search button.
+2025-11-21 12:36:12,330 INFO HomePage: Trying search button locator 1: //button[text()='SEARCH']
+2025-11-21 12:36:27,718 INFO HomePage: Trying search button locator 2: //button[contains(@class, 'button') and contains(text(), 'SEARCH')]
+2025-11-21 12:36:43,097 INFO HomePage: Trying search button locator 3: //button[contains(@class, 'rip') and text()='SEARCH']
+2025-11-21 12:36:58,443 INFO HomePage: Trying search button locator 4: //button[contains(@class, 'lato') and contains(text(), 'SEARCH')]
+2025-11-21 12:37:13,803 INFO HomePage: Trying search button locator 5: //input[@type='submit']
+2025-11-21 12:37:29,177 INFO HomePage: Trying search button locator 6: //button[contains(text(), 'Search')]
+2025-11-21 12:37:44,594 INFO HomePage: Trying search button locator 7: //a[contains(text(), 'SEARCH')]
+2025-11-21 12:37:59,984 ERROR TestSearchResult: Test failed with exception: Search button not found with any strategy
+2025-11-21 12:38:00,294 INFO TestSearchResult: Screenshot saved: screenshots/failed_tests/test_failure_1763708879.png
+2025-11-21 12:38:00,642 INFO pytest: Screenshot attached to Allure: screenshots\failed_tests\screenshot_20251121_123800.png

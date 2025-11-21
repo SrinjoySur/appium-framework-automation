@@ -1,0 +1,39 @@
+# Enhanced Chrome capabilities for better web automation stability
+appium:deviceName: "Pixel 9a"
+platformName: "Android"
+appium:platformVersion: "16.0"
+appium:udid: "emulator-5554"
+browserName: "Chrome"
+appium:automationName: "UiAutomator2"
+appium:autoDownloadEnabled: true
+appium:chromedriverAutoDownload: true
+appium:noReset: true
+appium:adbExecTimeout: 60000
+
+# Additional Chrome options for better stability
+appium:chromeOptions:
+  args:
+    - "--no-sandbox"
+    - "--disable-dev-shm-usage" 
+    - "--disable-blink-features=VizDisplayCompositor"
+    - "--disable-extensions"
+    - "--disable-gpu"
+    - "--disable-web-security"
+    - "--allow-running-insecure-content"
+    - "--ignore-certificate-errors"
+  prefs:
+    profile.default_content_setting_values.notifications: 2
+    profile.default_content_settings.popups: 0
+    profile.managed_default_content_settings.images: 2
+
+# Page load and element timing settings
+appium:newCommandTimeout: 300
+appium:commandTimeouts:
+  implicitWait: 20000
+  pageLoad: 60000
+  script: 30000
+
+# Enable verbose logging for debugging
+appium:enableVncClient: false
+appium:autoAcceptAlerts: true
+appium:autoDismissAlerts: false
